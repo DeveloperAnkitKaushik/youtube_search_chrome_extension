@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Search",
+  "version": "1.0",
+  "permissions": ["contextMenus"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
